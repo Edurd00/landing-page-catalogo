@@ -13,7 +13,7 @@ import {
   LayoutDashboard
 } from 'lucide-react';
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000?text=Olá!%20Quero%20criar%20meu%20catálogo%20digital.";
+const WHATSAPP_LINK = "https://wa.me/5511940662259?text=Olá!%20Quero%20criar%20meu%20catálogo%20digital.";
 const DEMO_LINK = "https://meu-catalogo-profissional.vercel.app";
 
 function App() {
