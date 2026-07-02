@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes pulse-emerald {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 10px rgba(16, 185, 129, 0);
+  }
+}
+
+.animate-pulse-custom {
+  animation: pulse-emerald 2s infinite;
+}
