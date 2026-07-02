@@ -15,7 +15,7 @@ import {
   Clock
 } from 'lucide-react';
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000?text=Olá!%20Quero%20criar%20meu%20catálogo%20digital.";
+const WHATSAPP_LINK = "https://wa.me/5511940662259?text=Olá!%20Quero%20criar%20meu%20catálogo%20digital.";
 const DEMO_LINK = "https://meu-catalogo-profissional.vercel.app";
 
 const SmartphoneMockup = ({ children, title = "Sua Loja" }) => (
@@ -206,7 +206,7 @@ function App() {
                     <div key={i} className="w-8 h-8 rounded-full border-2 border-zinc-950 bg-zinc-800"></div>
                   ))}
                 </div>
-                <p className="text-xs text-slate-400 font-bold tracking-tight">+ de 1.200 lojistas economizando hoje</p>
+                <p className="text-xs text-slate-400 font-bold tracking-tight">+ 1 lojistas economizando hoje</p>
               </div>
             </div>
           </div>
@@ -253,7 +253,7 @@ function App() {
 
               <div className="flex flex-col items-center mb-16">
                 <div className="flex items-baseline gap-2">
-                  <span className="text-6xl md:text-9xl font-black text-white tracking-tighter">R$ 59<span className="text-emerald-500">,90</span></span>
+                  <span className="text-6xl md:text-9xl font-black text-white tracking-tighter">R$ 49<span className="text-emerald-500">,90</span></span>
                   <span className="text-2xl font-bold text-slate-500 uppercase">/mês</span>
                 </div>
                 <p className="mt-6 text-emerald-400 font-black tracking-widest uppercase">Plano Profissional Completo</p>
